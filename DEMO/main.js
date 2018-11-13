@@ -10,5 +10,6 @@ const player = videojs('my-video',{
 
 player.ITMAN_title({
     text: 'IT邦幫忙鐵人賽',
-    opacity: 0.6
+    opacity: 0.6,
+    url:"htzdz"
 });

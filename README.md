@@ -38,6 +38,12 @@ player.ITMAN_title({
 | opacity  | 數值 ( 0.1 ~ 1 )    | 透明度    | 1|
 | fontSize | 字串   | 文字大小    | "1rem" |
 
+### url
+若是 url 屬性有值(網址)，其值會在這套件內被添加到標題 a 標籤上，好讓使用者點選標題可以出現對應的網頁。
+
+### fontSize
+為了讓使用者能自訂標題文字大小，這裡我開了一個文字大小屬性 fontSize ，使用者可以在這自訂文字大小(數字+單位)。
+
 ### className
 className 的設定為，當使用者傳入自己的 class 樣式名稱，會接續在 ITMAN.title.css 的樣式後面變成
 ```
@@ -46,3 +52,8 @@ className 的設定為，當使用者傳入自己的 class 樣式名稱，會接
 </div>
 ```
 > 要注意的是，自訂 class 樣式，無法覆蓋 文字大小、透明度和絕對定位的 CSS 設定，因為這些 CSS 設置是作為 `.ITMAN_title( )` 物件屬性值添加進標題(行內樣式)，別忘了寫在 HTML 上的 CSS 行內樣式權重會大於 class。
+
+## 混用
+這個套件是可以與其他 video.js 套件混用的，例如另一款 videojs 浮水印套件 [ITMAN_Watermark](https://github.com/allen8101070/ITMAN_Watermark) 搭配，也能改成 React 版本，結果如下：
+
+![](https://1.bp.blogspot.com/-rJsEhVfAfm8/W-ry_E0BwDI/AAAAAAAAJWQ/irWfyUUXMtEGcrkaJBXaYSUysgyBTmhpgCLcBGAs/s600/Ssdffdsf.png)
