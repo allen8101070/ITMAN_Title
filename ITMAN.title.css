@@ -1,0 +1,31 @@
+/* title */
+.itman-title {
+  position: absolute;
+  display: inline;
+  z-index: 20;
+  color: #fff;
+  text-shadow: 0px 0px 10px #444;
+  font-weight: 900;
+  font-family: "Microsoft JhengHei", "微軟正黑體", "sans-serif";
+  text-decoration: none;
+}
+
+.itman-title a {
+  text-decoration: none;
+}
+
+.itman-title a:link {
+  color: #fff;
+}
+
+.itman-title a:visited {
+  color: #fff;
+}
+
+.itman-title a:hover {
+  color: #fff;
+}
+
+.itman-title a:active {
+  color: #fff;
+}
